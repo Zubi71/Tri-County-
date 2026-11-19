@@ -1,23 +1,23 @@
 /* Tri County Handyman — Stitch design ("Reliable Trade Craft")
-   Palette: forest green #0c3b2e / #14532d, orange #f97316 — rebrand of the Stitch design.
+   Palette: navy #00162e / #142b45, amber #fea619 — same as Don't Think Twice (client request 2026-11-19).
    canvas #f9f9ff. Every section uses .container: max-width 1400px. */
 
 :root {
-  --navy: #0c3b2e;
-  --navy-2: #14532d;
-  --navy-3: #166534;
-  --amber: #f97316;
-  --amber-2: #ea580c;
-  --amber-dark: #c2410c;
+  --navy: #00162e;
+  --navy-2: #142b45;
+  --navy-3: #1e3e63;
+  --amber: #fea619;
+  --amber-2: #f59e0b;
+  --amber-dark: #b45309;
   --ink: #161c25;
   --muted: #43474d;
   --line: #e2e8f0;
   --bg: #f9f9ff;
-  --surface: #edf7f0;
+  --surface: #f0f3ff;
   --white: #ffffff;
   --radius: 12px;
-  --shadow: 0 1px 3px rgba(12, 59, 46, 0.05), 0 1px 2px -1px rgba(12, 59, 46, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(12, 59, 46, 0.08), 0 4px 6px -4px rgba(12, 59, 46, 0.04);
+  --shadow: 0 1px 3px rgba(20, 43, 69, 0.05), 0 1px 2px -1px rgba(20, 43, 69, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(20, 43, 69, 0.08), 0 4px 6px -4px rgba(20, 43, 69, 0.04);
 }
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
@@ -173,7 +173,7 @@ section { padding: 72px 0; }
 .field { margin-bottom: 16px; }
 .field label { display: block; font-weight: 700; font-size: 0.88rem; color: var(--navy); margin-bottom: 6px; }
 .field input, .field select, .field textarea { width: 100%; border: 1.5px solid var(--line); border-radius: 6px; padding: 12px 14px; font: inherit; font-size: 0.95rem; background: #fff; }
-.field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--navy-2); box-shadow: 0 0 0 3px rgba(12, 59, 46, 0.12); }
+.field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--navy-2); box-shadow: 0 0 0 3px rgba(20, 43, 69, 0.12); }
 .form-ok { background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; font-weight: 600; }
 .contact-info { display: flex; flex-direction: column; gap: 18px; }
 .info-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; }
@@ -289,6 +289,6 @@ section { padding: 72px 0; }
 .stats-band .stats-grid { grid-template-columns: repeat(4, 1fr); }
 .quote-form > label, .quote-form .form-row label { display: block; font-weight: 700; font-size: 0.88rem; color: var(--navy); margin-bottom: 16px; }
 .quote-form label input, .quote-form label select, .quote-form label textarea { display: block; width: 100%; border: 1.5px solid var(--line); border-radius: 6px; padding: 12px 14px; font: inherit; font-size: 0.95rem; background: #fff; margin-top: 6px; }
-.quote-form label input:focus, .quote-form label select:focus, .quote-form label textarea:focus { outline: none; border-color: var(--navy-2); box-shadow: 0 0 0 3px rgba(12, 59, 46, 0.12); }
+.quote-form label input:focus, .quote-form label select:focus, .quote-form label textarea:focus { outline: none; border-color: var(--navy-2); box-shadow: 0 0 0 3px rgba(20, 43, 69, 0.12); }
 .quote-form .form-row label { margin-bottom: 0; }
 @media (max-width: 1024px) { .stats-band .stats-grid { grid-template-columns: repeat(2, 1fr); } }
